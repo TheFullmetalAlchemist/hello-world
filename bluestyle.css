@@ -1,8 +1,28 @@
-body {
-background-color: lightblue;
+.con
+{
+    position:relative;
+    width:100%;
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+} 
+.btn
+ {
+    background-color: rgb(246, 246, 246);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    position:absolute;
+    top:250px;
+    left:100px;
+    color: black;
+    border-radius: 10px;
+ }
+
+.btn:hover
+{
+    background-color:rgba(243, 184, 7, 0.808) ;
 }
 
-h1 {
-color: navy;
-margin-left: 20px;
-}
